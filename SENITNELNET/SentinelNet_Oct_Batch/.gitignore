@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets
+*.csv
+*.txt
+*.data
+*.dat
+*.arff
+*.xlsx
+*.xls
+*.zip
+
+# Model & output files
+*.h5
+*.pkl
+*.joblib
+*.json
+*.npz
+*.npy
+*.sav
+*.pt
+*.onnx
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_convert
+*.ipynb_checkpoints
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Reports / exports
+*.pdf
+*.docx
+*.html
+*.md
+*.rtf
+*.png
+*.jpg
+*.jpeg
+
+# Build & dist
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Cache
+.cache/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.log
