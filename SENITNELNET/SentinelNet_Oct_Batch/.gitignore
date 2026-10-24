@@ -75,3 +75,21 @@ dist/
 *.swp
 *.swo
 *.log
+# Include SentinelNet datasets
+!CICIDS2017_sample.csv
+!KDDTest+.csv
+!KDDTrain+.csv
+!NSLKDD_test.csv
+!NSLKDD_train.csv
+!TEST_CICIDS.csv
+!TEST_NSLKDD.csv
+!cicids-friworkhrs.csv
+!fridayworkinghrs.csv
+
+# Include project configuration and documentation
+!README.md
+!features_cicids.json
+!features_nslkdd.json
+!model_results_binary.txt
+# Large trained model excluded from regular Git
+models/cicids_multi_extra_trees.pkl
